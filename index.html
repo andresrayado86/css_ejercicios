@@ -4,66 +4,14 @@
         <meta charset="UTF-8">
         <title>Css Ejercicios</title>
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-        <style>
-			
-			* {
-				margin: 0;
-				padding: 0;
-			}
-
-			body {
-				max-width: 1000px;
-				margin: auto;
-				padding: 20px;
-				background-color: #5F5F5F;
-			}
-
-			h1 {
-				text-align: center;
-				margin-top: 50px;
-				color: white;
-				font-family: 'Roboto', sans-serif;
-			}
-
-			#cuadro-rojo {
-				background-color: black;
-				border-radius: 6px;
-				border: 3px solid silver;
-				opacity: 0.9;
-			}
-
-
-			.square {
-				width: 90%;
-				height: 100px;
-				margin: 10px;
-			}
-
-			.enlace {
-				font-family: 'Roboto', sans-serif;
-				font-size: 200%;
-				text-decoration: none;
-				color: white;
-				
-				position: relative;
-				top: 35px;
-				left: 45%;
-			}
-			
-			.enlace:hover {
-				color: #5F5F5F;
-			}
-
-
-
-        </style>
+        <link rel="stylesheet" href="css/estilo.css">
     </head>
     <body>
     	<div><h1>Ejemplo de Encabezado</h1></div>
     	<div id="cuadro-rojo" class="square"><a href="" class="enlace">Enlace</a></div>
-    	<div class="nav">
+    	<div id="cuadro-nav" class="nav-square">
     		<ul class="principal">
-    			<li class="elemento">Hola</li>
+    			<li class="elemento"><a href="#" class="opcion">Hola</a></li>
     		</ul>
     	</div>
     </body>

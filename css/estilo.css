@@ -17,6 +17,12 @@ h1 {
 		font-family: 'Roboto', sans-serif;
 	}
 
+.square {
+			width: 90%;
+			height: 100px;
+			margin: 10px;
+		}
+
 #cuadro-rojo {
 				background-color: black;
 				border-radius: 6px;
@@ -25,11 +31,7 @@ h1 {
 			}
 
 
-.square {
-			width: 90%;
-			height: 100px;
-			margin: 10px;
-		}
+
 
 .enlace {
 			font-family: 'Roboto', sans-serif;
@@ -38,9 +40,37 @@ h1 {
 			color: white;
 			position: relative;
 			top: 35px;
-			left: 45%;
+			left: 20px;
 		}
 			
 .enlace:hover {
 				color: #5F5F5F;
 			}
+
+.nav-square {
+			width: 90%;
+			height: 50px;
+			margin: 10px;
+}
+
+#cuadro-nav {
+				background-color: black;
+				border-radius: 6px;
+				border: 3px solid silver;
+				opacity: 0.9;
+}
+
+#cuadro-nav .principal {
+	float: left;
+}
+
+.principal .elemento{
+	list-style-type: none;
+}
+
+.elemento .opcion {
+	text-decoration: none;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}

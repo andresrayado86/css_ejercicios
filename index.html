@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Css Ejercicios</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <style>
+			
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+			body {
+				max-width: 1000px;
+				margin: auto;
+				padding: 20px;
+				background-color: #5F5F5F;
+			}
+
+			#cuadro-rojo {
+				background-color: #DB4437;
+				border-radius: 6px;
+				border: 3px solid red;
+				opacity: 0.9;
+			}
+
+			#cuadro-azul {
+				background-color: blue;
+				border: 3px black solid;
+			}
+
+			#cuadro-verde {
+				background-color: green;
+				border: 3px orange solid;
+			}
+
+			.square {
+				width: 90%;
+				height: 100px;
+				margin: 10px;
+				float: left;
+			}
+
+			.enlace #cuadro-rojo {
+				text-decoration: none;
+				color: white;
+			}
+
+			.enlace #cuadro-rojo .texto{
+				font-family: 'Roboto', sans-serif;
+				font-size: 200%;
+				text-align: center;
+				position: relative;
+				top: 35px;
+			}
+			
+			.enlace:hover #cuadro-rojo {
+				color: white;
+				background-color: #4285F4;
+				border: 3px solid yellow;
+			}
+
+
+
+        </style>
+    </head>
+    <body>
+    	<a href="#" class="enlace"><div id="cuadro-rojo" class="square"><p class="texto">Presiona aqui</p></div></a>
+    	<div id="cuadro-azul" class="square"></div>
+    	<div id="cuadro-verde" class="square"></div>
+    </body>
+</html>

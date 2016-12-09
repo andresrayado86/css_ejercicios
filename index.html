@@ -18,47 +18,40 @@
 				background-color: #5F5F5F;
 			}
 
+			h1 {
+				text-align: center;
+				margin-top: 50px;
+				color: white;
+				font-family: 'Roboto', sans-serif;
+			}
+
 			#cuadro-rojo {
-				background-color: #DB4437;
+				background-color: black;
 				border-radius: 6px;
-				border: 3px solid red;
+				border: 3px solid silver;
 				opacity: 0.9;
 			}
 
-			#cuadro-azul {
-				background-color: blue;
-				border: 3px black solid;
-			}
-
-			#cuadro-verde {
-				background-color: green;
-				border: 3px orange solid;
-			}
 
 			.square {
 				width: 90%;
 				height: 100px;
 				margin: 10px;
-				float: left;
 			}
 
-			.enlace #cuadro-rojo {
-				text-decoration: none;
-				color: white;
-			}
-
-			.enlace #cuadro-rojo .texto{
+			.enlace {
 				font-family: 'Roboto', sans-serif;
 				font-size: 200%;
-				text-align: center;
+				text-decoration: none;
+				color: white;
+				
 				position: relative;
 				top: 35px;
+				left: 45%;
 			}
 			
-			.enlace:hover #cuadro-rojo {
-				color: white;
-				background-color: #4285F4;
-				border: 3px solid yellow;
+			.enlace:hover {
+				color: #5F5F5F;
 			}
 
 
@@ -66,8 +59,12 @@
         </style>
     </head>
     <body>
-    	<a href="#" class="enlace"><div id="cuadro-rojo" class="square"><p class="texto">Presiona aqui</p></div></a>
-    	<div id="cuadro-azul" class="square"></div>
-    	<div id="cuadro-verde" class="square"></div>
+    	<div><h1>Ejemplo de Encabezado</h1></div>
+    	<div id="cuadro-rojo" class="square"><a href="" class="enlace">Enlace</a></div>
+    	<div class="nav">
+    		<ul class="principal">
+    			<li class="elemento">Hola</li>
+    		</ul>
+    	</div>
     </body>
 </html>

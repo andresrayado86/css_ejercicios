@@ -1,6 +1,6 @@
 * {
-	margin: 0;
-	padding: 0;
+
+	box-sizing: border-box;
 }
 
 body {
@@ -18,13 +18,13 @@ h1 {
 }
 
 .square {
-	width: 90%;
+	width: auto;
 	height: 100px;
 	margin: 10px;
 }
 
 #cuadro-rojo {
-	background-color: black;
+	background-color: #004B8B;
 	border-radius: 6px;
 	border: 3px solid silver;
 	opacity: 0.9;
@@ -44,6 +44,31 @@ h1 {
 }
 			
 .enlace:hover {
-	color: #5F5F5F;
+	color: #02184B;
+}
+
+
+.cuadro{
+	width: 45%;
+	margin: 20px;
+	background-color: grey;
+	float: left;
+	border: 2px solid silver;
+	border-radius: 5px;
+}
+
+.parrafo {
+	color: white;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	text-align: justify;
+	padding: 5px;
+
+}
+
+footer {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: white;
 }
 
